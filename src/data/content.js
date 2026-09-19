@@ -20,7 +20,7 @@ export const profile = {
   photo: 'suraj.jpg',
   // Optional — leave as empty strings to hide the link
   github: 'https://github.com/S2508-Suraj',
-  linkedin: '',
+  linkedin: 'https://www.linkedin.com/in/surajkesharwani/',
 }
 
 export const quickFacts = [

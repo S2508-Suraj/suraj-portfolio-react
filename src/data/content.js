@@ -19,7 +19,7 @@ export const profile = {
   // Square image in /public — swap the file and change this name to replace it
   photo: 'suraj.jpg',
   // Optional — leave as empty strings to hide the link
-  github: '',
+  github: 'https://github.com/S2508-Suraj',
   linkedin: '',
 }
 

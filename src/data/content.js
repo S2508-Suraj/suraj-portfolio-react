@@ -11,7 +11,7 @@ export const profile = {
     'I build scalable line-of-business web applications — C#, ASP.NET Core, React and SQL Server — from the schema up to the screen.',
   summary:
     'Results-driven .NET Full-Stack Developer with hands-on experience designing, developing and maintaining scalable web applications using C#, .NET Core/Framework, React and SQL Server, following OOP design patterns and n-tier architecture. Experienced in building RESTful Web APIs, ETL workflows and CI/CD pipelines, with regular use of AI-assisted development tools to accelerate delivery and improve code quality. Comfortable working in Agile/Scrum environments with strong problem-solving and analytical skills.',
-  location: 'Chhitpalgarh, Pratapgarh (UP), India',
+  location: 'Delhi NCR, India',
   email: 'surajkesharwani9918@gmail.com',
   phones: ['+91 97949 30740', '+91 63865 80826'],
   availability: 'Open to full-stack .NET roles',

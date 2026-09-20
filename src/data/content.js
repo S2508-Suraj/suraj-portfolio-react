@@ -25,7 +25,7 @@ export const profile = {
 
 export const quickFacts = [
   { label: 'Current role', value: 'Software Developer (.NET)' },
-  { label: 'At', value: 'Scanditech Solution Pvt Ltd' },
+  { label: 'At', value: 'Scanditech Solutions Pvt Ltd' },
   { label: 'Since', value: 'January 2024' },
   { label: 'Core stack', value: 'C# · ASP.NET · React · SQL Server' },
 ]
@@ -84,7 +84,7 @@ export const skillGroups = [
 export const experience = [
   {
     role: 'Software Developer (.NET Full-Stack)',
-    company: 'Scanditech Solution Pvt Ltd, Faridabad, Haryana',
+    company: 'Scanditech Solutions Pvt Ltd, Faridabad, Haryana',
     period: '01/2024 — Present',
     current: true,
     groups: [
@@ -206,7 +206,7 @@ export const timeline = [
   {
     period: '01/2024 — Present',
     title: '.NET Full-Stack Developer',
-    org: 'Scanditech Solution Pvt Ltd',
+    org: 'Scanditech Solutions Pvt Ltd',
     detail:
       'Building and maintaining enterprise web applications end to end — C#, ASP.NET MVC/Core, React, SQL Server — and working directly with clients.',
     kind: 'work',

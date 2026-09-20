@@ -6,15 +6,15 @@
 export const profile = {
   name: 'Suraj Kesharwani',
   firstName: 'Suraj',
-  role: '.NET Full-Stack Developer',
+  role: '.NET Developer  ·  Full-Stack & Backend',
   tagline:
     'I build scalable line-of-business web applications — C#, ASP.NET Core, React and SQL Server — from the schema up to the screen.',
   summary:
-    'Results-driven .NET Full-Stack Developer with hands-on experience designing, developing and maintaining scalable web applications using C#, .NET Core/Framework, React and SQL Server, following OOP design patterns and n-tier architecture. Experienced in building RESTful Web APIs, ETL workflows and CI/CD pipelines, with regular use of AI-assisted development tools to accelerate delivery and improve code quality. Comfortable working in Agile/Scrum environments with strong problem-solving and analytical skills.',
+    '.NET Developer who owns features end to end — from SQL Server schema and C# / ASP.NET Core services, through React interfaces, to IIS deployment and production support. Builds RESTful Web APIs, SSIS ETL workflows and CI/CD pipelines, and uses Claude Code and GitHub Copilot to accelerate delivery in Agile/Scrum teams.',
   location: 'Delhi NCR, India',
   email: 'surajkesharwani9918@gmail.com',
   phones: ['+91 97949 30740', '+91 63865 80826'],
-  availability: 'Open to full-stack .NET roles',
+  availability: 'Open to .NET roles — full-stack or backend',
   resumeUrl: 'Suraj_Kesharwani_Resume.pdf',
   // Square image in /public — swap the file and change this name to replace it
   photo: 'suraj.jpg',
@@ -24,7 +24,7 @@ export const profile = {
 }
 
 export const quickFacts = [
-  { label: 'Current role', value: '.NET Full-Stack Developer' },
+  { label: 'Current role', value: 'Software Developer (.NET)' },
   { label: 'At', value: 'Scanditech Solution Pvt Ltd' },
   { label: 'Since', value: 'January 2024' },
   { label: 'Core stack', value: 'C# · ASP.NET · React · SQL Server' },
@@ -83,8 +83,8 @@ export const skillGroups = [
 
 export const experience = [
   {
-    role: '.NET Full-Stack Developer',
-    company: 'Scanditech Solution Pvt Ltd',
+    role: 'Software Developer (.NET Full-Stack)',
+    company: 'Scanditech Solution Pvt Ltd, Faridabad, Haryana',
     period: '01/2024 — Present',
     current: true,
     groups: [

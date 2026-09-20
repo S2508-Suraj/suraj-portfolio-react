@@ -2,3 +2,6 @@ node_modules
 dist
 dist-single
 .DS_Store
+
+# Files delivered by the Claude desktop app — working documents, not site code
+Claude outputs/

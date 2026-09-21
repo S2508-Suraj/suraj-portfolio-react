@@ -10,7 +10,7 @@ export const profile = {
   tagline:
     'I build scalable line-of-business web applications — C#, ASP.NET Core, React and SQL Server — from the schema up to the screen.',
   summary:
-    '.NET Developer who owns features end to end — from SQL Server schema and C# / ASP.NET Core services, through React interfaces, to IIS deployment and production support. Builds RESTful Web APIs, SSIS ETL workflows and CI/CD pipelines, and uses Claude Code and GitHub Copilot to accelerate delivery in Agile/Scrum teams.',
+    '.NET Developer who owns features end to end — from SQL Server schema and C# / ASP.NET Core services, through React interfaces, to IIS deployment and production support. Works across .NET and .NET Framework 4.8, applying SOLID principles, OOP design patterns and n-tier architecture. Builds RESTful Web APIs, SSIS ETL workflows and CI/CD pipelines, and uses Claude Code and GitHub Copilot to accelerate delivery in Agile/Scrum teams.',
   location: 'Delhi NCR, India',
   email: 'surajkesharwani9918@gmail.com',
   phones: ['+91 97949 30740', '+91 63865 80826'],
@@ -34,18 +34,21 @@ export const skillGroups = [
   { title: 'Languages', items: ['C#', 'SQL', 'JavaScript', 'TypeScript', 'XML'] },
   {
     title: 'Frameworks',
-    items: ['.NET Core', '.NET Framework', 'ASP.NET MVC', 'ASP.NET Core', 'ADO.NET', 'Entity Framework', 'LINQ'],
+    items: ['.NET', '.NET Core', '.NET Framework 4.8', 'ASP.NET MVC', 'ASP.NET Core', 'ADO.NET', 'Entity Framework', 'LINQ'],
   },
   {
     title: 'Frontend',
-    items: ['React', 'HTML', 'CSS', 'AJAX', 'JSON', 'Bootstrap', 'Tailwind CSS', 'jQuery'],
+    items: ['React', 'Angular (training)', 'HTML5', 'CSS3', 'AJAX', 'JSON', 'Bootstrap', 'Tailwind CSS', 'jQuery'],
   },
   { title: 'Data & ETL', items: ['SQL Server', 'SSIS'] },
   {
     title: 'Architecture & Practices',
     items: [
+      'SOLID Principles',
       'OOP Design Patterns',
       'N-Tier Architecture',
+      'Unit Testing',
+      'TDD',
       'Agile / Scrum',
       'Code Reviews',
       'Debugging & Performance Profiling',
@@ -53,7 +56,7 @@ export const skillGroups = [
   },
   {
     title: 'DevOps & Tools',
-    items: ['Git', 'GitHub', 'GitHub Actions (CI/CD)', 'Visual Studio', 'VS Code', 'Postman', 'Swagger'],
+    items: ['Git', 'GitHub', 'GitHub Actions (CI/CD)', 'PowerShell', 'Visual Studio', 'VS Code', 'Postman', 'Swagger'],
   },
   {
     title: 'Servers & Deployment',
@@ -78,7 +81,7 @@ export const skillGroups = [
       'GitHub Copilot',
     ],
   },
-  { title: 'Other', items: ['REST APIs', 'Windows Services', 'JWT Authentication', 'SQL Agent Jobs'] },
+  { title: 'Other', items: ['REST APIs', 'Web Services', 'Windows Services', 'JWT Authentication', 'SQL Agent Jobs'] },
 ]
 
 export const experience = [
@@ -91,7 +94,7 @@ export const experience = [
       {
         title: 'Backend & architecture',
         points: [
-          'Developed and maintained web applications using C#, ASP.NET MVC, .NET Core, .NET Framework and SQL Server, following OOP design patterns and n-tier architecture for maintainability and scalability.',
+          'Developed and maintained project management web applications using C#, ASP.NET MVC, .NET, .NET Framework 4.8 and SQL Server, following SOLID principles, OOP design patterns and n-tier architecture.',
           'Designed and built RESTful Web APIs enabling communication between the React frontend and backend services, using JSON for client–server data exchange.',
           'Implemented authentication and authorization using ASP.NET Identity and JWT tokens.',
           'Queried and manipulated data using LINQ and Entity Framework, alongside stored procedures for complex data operations.',
@@ -101,7 +104,7 @@ export const experience = [
       {
         title: 'Frontend',
         points: [
-          'Built responsive UI components using React, JavaScript, TypeScript, jQuery, HTML, CSS, AJAX and Bootstrap.',
+          'Built responsive UI components using React, JavaScript, TypeScript, jQuery, HTML5, CSS3, AJAX and Bootstrap.',
         ],
       },
       {
@@ -109,7 +112,7 @@ export const experience = [
         points: [
           'Built ETL workflows using SSIS for data integration and processing between systems.',
           'Developed and maintained Windows Services for background task processing and automation.',
-          'Optimized database queries, stored procedures, triggers and indexing, improving system performance by 30%.',
+          'Optimized database queries, stored procedures, views, triggers and indexing, improving system performance by 30%.',
           'Automated daily agreement period updates and archive linking/delinking using SQL Agent Jobs, reducing manual effort and improving accuracy.',
         ],
       },
@@ -117,7 +120,7 @@ export const experience = [
         title: 'Deployment & IIS',
         points: [
           'Deployed and maintained ASP.NET applications on IIS across VM-hosted servers — creating sites, configuring application pools (CLR version, identity, recycling) and managing hostname and port bindings.',
-          'Published builds from Visual Studio and MSBuild to IIS, managing releases and keeping development, staging and production environments in step.',
+          'Published builds from Visual Studio and MSBuild to IIS using PowerShell for release steps, keeping development, staging and production environments in step.',
           'Maintained environment configuration through web.config — connection strings, appSettings, config transforms, URL rewrite rules and custom error handling.',
           'Configured HTTPS certificates and bindings along with Windows and anonymous authentication for secured internal applications.',
           'Diagnosed production issues from IIS logs and event traces — 500/502 responses, application pool crashes and file-permission failures — resolving them independently with minimal escalation.',
@@ -138,7 +141,8 @@ export const experience = [
         points: [
           'Set up and maintained CI/CD pipelines using GitHub Actions for automated build, test and deployment workflows.',
           'Collaborated in an Agile/Scrum environment using Git/GitHub — feature branching, merging and pull requests — and participated in code reviews to uphold coding standards.',
-          'Worked directly with clients to gather requirements for new features and resolve bug-related queries, ensuring timely delivery within deadlines.',
+          'Mentor junior developers on the team — onboarding them to the codebase, reviewing their pull requests and sharing .NET and SQL practices.',
+          'Worked directly with clients to gather requirements, refine user stories and groom the backlog for new features, and resolve bug-related queries within deadlines.',
         ],
       },
     ],
@@ -148,10 +152,10 @@ export const experience = [
 export const projects = [
   {
     name: 'System Organizer',
-    kind: 'Enterprise web application',
+    kind: 'Project management web application',
     stack: ['C#', '.NET MVC', 'SQL', 'JavaScript', 'jQuery', 'HTML', 'CSS'],
     points: [
-      'Contributed to a trilingual (English / Swedish / French) web application for property management and construction project coordination, including role-based access control.',
+      'Contributed to a trilingual (English / Swedish / French) project management web application for property management and construction project coordination, including role-based access control.',
       'Built document management, scheduling, task assignment (To-Do) and a Q&A module; integrated a third-party Gantt chart tool.',
       'Implemented Windows Services for alert emails and background status/data updates.',
     ],
@@ -216,7 +220,7 @@ export const timeline = [
     title: '.NET Full-Stack Developer Programme',
     org: 'Ducat India',
     detail:
-      'Complete front-end and back-end training on the Microsoft stack: C#, .NET Core, ASP.NET MVC, SQL Server, Entity Framework, LINQ, Web API, HTML5, CSS3, JavaScript, Bootstrap and React — including real-time projects and deployment.',
+      'Complete front-end and back-end training on the Microsoft stack: C#, .NET Core, ASP.NET MVC, SQL Server, Entity Framework, LINQ, Web API, unit testing, HTML5, CSS3, JavaScript, Bootstrap, Angular and React — including real-time projects and deployment.',
     kind: 'training',
   },
   {

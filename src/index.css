@@ -27,7 +27,9 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  /* The nav animates scrolling itself (src/lib/glideTo.js); native smooth
+     scrolling would fight that rAF loop. */
+  scroll-behavior: auto;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -88,10 +90,11 @@ button:focus-visible {
   border-radius: 4px;
 }
 
+section[id] {
+  scroll-margin-top: 5.5rem;
+}
+
 @media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
   *,
   *::before,
   *::after {

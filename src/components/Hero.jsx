@@ -1,6 +1,7 @@
 import { motion, useReducedMotion } from 'framer-motion'
 import { ArrowDown, FileText, Mail, MapPin } from 'lucide-react'
 import { profile, quickFacts } from '../data/content.js'
+import { onAnchorClick } from '../lib/glideTo.js'
 
 export default function Hero() {
   const reduce = useReducedMotion()
@@ -49,6 +50,7 @@ export default function Hero() {
       <motion.div {...rise(0.32)} className="mt-9 flex flex-wrap items-center gap-3">
         <a
           href="#contact"
+          onClick={(e) => onAnchorClick(e, 'contact')}
           className="inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-3 text-sm font-semibold text-white transition-transform duration-200 hover:-translate-y-0.5 hover:bg-accent-soft"
         >
           <Mail size={16} strokeWidth={1.9} />
@@ -102,6 +104,7 @@ export default function Hero() {
       <motion.a
         {...rise(0.5)}
         href="#about"
+        onClick={(e) => onAnchorClick(e, 'about')}
         className="mt-12 inline-flex items-center gap-2 font-[family-name:var(--font-mono)] text-xs tracking-widest text-faint uppercase transition-colors hover:text-accent-soft"
       >
         <ArrowDown size={14} strokeWidth={2} />

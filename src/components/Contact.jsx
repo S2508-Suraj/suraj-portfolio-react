@@ -1,4 +1,5 @@
-import { Code2, ExternalLink, FileText, Mail, MapPin, Phone } from 'lucide-react'
+import { FileText, Mail, MapPin, Phone } from 'lucide-react'
+import { FaGithub, FaLinkedin } from 'react-icons/fa6'
 import { Reveal, Section } from './primitives.jsx'
 import { profile } from '../data/content.js'
 
@@ -72,7 +73,7 @@ export default function Contact() {
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-lg border border-line bg-panel px-4 py-2.5 text-sm text-text transition-colors hover:border-accent/40"
               >
-                <Code2 size={16} strokeWidth={1.8} /> GitHub
+                <FaGithub size={17} aria-hidden="true" /> GitHub
               </a>
             )}
             {profile.linkedin && (
@@ -82,7 +83,7 @@ export default function Contact() {
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-lg border border-line bg-panel px-4 py-2.5 text-sm text-text transition-colors hover:border-accent/40"
               >
-                <ExternalLink size={16} strokeWidth={1.8} /> LinkedIn
+                <FaLinkedin size={17} aria-hidden="true" /> LinkedIn
               </a>
             )}
           </div>
